@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+#todoList {
+    max-width: 400px;
+    margin: auto;
+    border: black;
+    border-style: solid;
+    background-color: white;
+}
+
+#todoList h1 {
+    font-size: 32px;
+    text-align: center;
+    color: red;
+}
+
+#taskPostForm,
+#taskDeleteForm {
+    display: inline-flex;
+}
+
+#taskPostForm {
+    margin-bottom: 10px;
+}
+
+#taskPostForm button {
+    margin-left: 10px;
+    padding: 0px 10px;
+}
+
+#taskInputText {
+    padding: 5px;
+}
+
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+}
+
+#menu button {
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 10px;
+    background-color: rgba(255, 80, 97, 1);
+    border-radius: 5px;
+    color: white;
+}
+
+#taskInList {
+    margin-right: 20px;
+    text-align: left;
+}
+/*#menu checkbox[type="checkbox"] {*/
+/*    margin-right: 100px;*/
+
+
+/*}*/
+
+#taskList {
+    list-style-type: none;
+    text-align: left;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    margin: 0px 0;
+}
